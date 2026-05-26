@@ -1,14 +1,27 @@
-![Cover image](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing/blob/main/cover.jpg)
+✨ **NEW UPDATE: Literature Review Generator**
+
+A Custom GPT for Literature Review Generator has been released. It efficiently parses PDF files of research publications, extracts key themes, and creates a literature review section for your academic publications.
+
+![customgpt](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing/assets/5254173/b36b7516-39ff-4752-be61-7b364db6d9dd)
+
+TRY NOW: https://chat.openai.com/g/g-G3U8pZGwC-literature-review-generator
+
+***
+
+<!--- ![Cover image](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing/blob/main/cover.jpg) --->
+
 
 # ChatGPT Prompts for Academic Writing
 
-This list of writing prompts covers a range of topics and tasks, including brainstorming research ideas, improving language and style, conducting literature reviews, and developing research plans. Whether you're a student, researcher, or academic professional, these prompts can help you hone your writing abilities and tackle your writing projects with confidence. 
+In this repository, this list of writing prompts covers a range of topics and tasks, including brainstorming research ideas, improving language and style, conducting literature reviews, and developing research plans. Whether you're a student, researcher, or academic professional, these prompts can help you hone your writing abilities and tackle your writing projects with confidence. 
 
 Use directly in: [chat.openai.com](https://chat.openai.com)
 
 The list is regularly updated, so you can keep track of new prompts by following this repository.
 
 > **TIPS:** As there is a limit to the number of words that can be used in ChatGPT, you can input your text multiple times using the prompt "Read this [PARAPGRAPH]:" and then run your final prompt "Considering the above text...".
+
+You can also use prompts splitter: [chatgpt-prompt-splitter.jjdiaz.dev](https://chatgpt-prompt-splitter.jjdiaz.dev/)
 
 ## BRAINSTORMING
 
@@ -49,7 +62,7 @@ Suggest 5 titles for the following abstract: [ABSTRACT PARAGRAPH]
 ```
 
 ```
-Write a topic sentences for this paragraph: [PARAGRAPH] 
+Write a topic sentence for this paragraph: [PARAGRAPH] 
 ```
 
 ### Keywords
@@ -71,7 +84,7 @@ Generate an outline for [TOPIC SENTENCE]
 ```
 
 ```
-I want to write a journal article about [TOPIC SENTENCE]. give me an outline for the article that I can use as a starting point.
+I want to write a journal article about [TOPIC SENTENCE]. Give me an outline for the article that I can use as a starting point.
 ```
 
 ### Introduction
@@ -90,14 +103,14 @@ Conduct a literature review on [TOPIC SENTENCE] and provide review paper referen
 Provide me with references and links to papers in [PARAPGRAPH]
 ```
 
-> **NOTE:** Be careful and double check article existence, ChatGPT may generate fake references
+> **NOTE:** Be careful and double-check article existence. ChatGPT may generate fake references
 
 ```
-Summarize the scholarly literature including in text citations on [PARAGRAPHS]
+Summarize the scholarly literature, including in text citations on [PARAGRAPHS]
 ```
 
 ```
-Write this in standart Harvard referencing [PARAGRAPH]
+Write this in standard Harvard referencing [PARAGRAPH]
 ```
 
 ```
@@ -131,7 +144,7 @@ What are the limitations of using [TOPIC SENTENCE] in [RESEARCH DOMAIN]?
 ```
 
 ```
-Create a recipie for the methods used in this [PARAGRAPHS]
+Create a recipe for the methods used in this [PARAGRAPHS]
 ```
 
 ```
@@ -155,13 +168,13 @@ Design an experiment that [ACTION]
 ### Results
 
 ```
-Write a result section for the following paragraphs. Please write this in third person. [PARAGRAPHS]
+Write a result section for the following paragraphs. Please write this in the third person. [PARAGRAPHS]
 ```
 
 ### Discussion
 
 ```
-Discuss this results: [RESULT PARAGRAPHS]
+Discuss these results: [RESULT PARAGRAPHS]
 ```
 
 ### Conclusion
@@ -183,7 +196,7 @@ Can you suggest 3 directions for future research on this topic: [PARAGRAPH]]?
 ## IMPROVING LANGUAGE
 
 ```
-Rewrite his paragraph in an academic langauge: [PARAGRAPH]
+Rewrite this paragraph in an academic language: [PARAGRAPH]
 ```
 
 ```
@@ -195,7 +208,7 @@ Correct the grammar: [PARAGRAPH]
 ```
 
 ```
-What do you think of how this parapraph is written?:  [PARAGRAPH]
+What do you think of how this paragraph is written?:  [PARAGRAPH]
 ```
 
 ```
@@ -223,7 +236,7 @@ Can you improve this paragraph using passive voice: [PARAGRAPH]
 ```
 
 ```
-Can you improve this paragraph to make it more cohesive: [PARAGRAPH]
+Can you improve this paragraph to make it more cohesive? [PARAGRAPH]
 ```
 
 ```
@@ -247,7 +260,7 @@ Provide effective transitions between paragraphs [PARAGRAPH1] [PARAGRAPH2]
 ```
 
 ```
-Rewrite this paragraph as a introduction: [PARAGRAPH]
+Rewrite this paragraph as an introduction: [PARAGRAPH]
 ```
 
 ```
@@ -280,6 +293,10 @@ Act as a language expert, proofread my paper on [TOPIC SENTENCE] while putting a
 
 ```
 In the context of [RESEARCH DOMAIN] translate [PARAPGRAPH] into the [LANGUAGE] language.
+```
+
+```
+Proofread the following text for spelling and grammatical errors and rewrite it with corrections. [PARAGRAPHS] 
 ```
 
 ### SUMMARIZATION
@@ -329,7 +346,7 @@ Identify the key findings and implications of this: [PARAGRAPHS]
 ```
 
 ```
-Remove throat-clearing sentence from this paragraph: [PARAGRAPH]
+Remove the throat-clearing sentence from this paragraph: [PARAGRAPH]
 ```
 
 ```
@@ -351,7 +368,7 @@ Write a schedule for completion in [TOPIC SENTENCE] in [NUMBER OF DAYS/MONTHS/YE
 ```
 
 ```
-The deadline for the submission of first draft is [DATE]. give me a week-by-week breakdown so I can plan my writing better.
+The deadline for the submission of the first draft is [DATE]. give me a week-by-week breakdown so I can plan my writing better.
 ```
 
 ```
@@ -363,5 +380,32 @@ Make this more persuasive: [PARAGRAPH]
 ```
 
 ```
-Write 3 tweets about this research? [PARAGRAPHS]
+Write 3 tweets about this research. [PARAGRAPHS]
 ```
+
+## WORKING WITH DOCUMENTS (AVAILABLE ONLY IN GPT-4)
+
+Upload a PDF file of a paper then:
+```
+Summarize the paper and extract key points.
+```
+
+Upload a PDF file of your paper then:
+```
+Provide feedback on this article draft.
+```
+
+Upload PDF files of papers then:
+```
+Considering these documents, write a literature review in paragraphs that include in-text references of the documents in APA format.
+```
+
+Upload a figure image then:
+```
+Explain the figure.
+```
+
+
+
+
+
